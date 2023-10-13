@@ -1,5 +1,6 @@
 words = input("Introduzca una frase:")
-split_words = words.split("")
+split_words = words.split()
+print(split_words)
 reversed_words = reversed(split_words)
-reversed_sentence = reversed_words.join("")
+reversed_sentence = " ".join(reversed_words)
 print("Tu frase en reversa es:",reversed_sentence)
